@@ -33,7 +33,7 @@
                 $calc = new Calculator();
                 $result = $calc->add($n1, $n2);
 
-                echo "<h2>The result of adding $n1 and $n2 is $result</h2>";
+                echo "<h2>The result of adding $n1 and $n2 is <div id=\"result\" style=\"display:inline\" >$result</div></h2>";
             }
         ?>
         <script src="assets/js/bootstrap.min.js" ></sccript>
